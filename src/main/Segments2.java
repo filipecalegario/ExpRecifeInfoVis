@@ -97,7 +97,7 @@ public class Segments2 extends PApplet {
 			textAlign(LEFT, TOP);
 			textSize(14);
 			fill(0);
-			text(DurationFormat.secondsToString(s.calculateTotalDurationInSeconds()), 810 + leftMargin, y);
+			text(DurationFormat.secondsToString(s.calculateTotalDurationInSeconds()), 810 + leftMargin, y );
 			text(DurationFormat.secondsToString(maxTesting), 810 + leftMargin + 50, y);
 			//System.out.println(s.getParticipant() + ",00:" + DurationFormat.secondsToString(maxTesting));
 			s.printTransactionsReport2();
