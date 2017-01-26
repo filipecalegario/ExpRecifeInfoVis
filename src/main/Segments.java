@@ -10,7 +10,7 @@ import processing.data.Table;
 import util.DurationFormat; 
 
 public class Segments extends PApplet {
-
+	/*
 	GPlot plot;
 	HashMap<String, Integer> cores;
 
@@ -106,4 +106,5 @@ public class Segments extends PApplet {
 			PApplet.main(appletArgs);
 		}
 	}
+	*/
 }
